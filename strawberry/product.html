@@ -81,16 +81,16 @@
 <body>
 <div id=top-bar>
     <div id="logo">
-        <p id="top-title">
+        <p id="top-title" onclick="home()">
             딸기가 좋아!
         </p>
-        <p id="top-title2">
+        <p id="top-title2" onclick="home()">
             LIKE STRAWBERRY
         </p>
     </div>
     <div id="menu">
         <div style="float:right;">
-            <span class="menu-button" onclick="home()">홈</span>
+            <span class="menu-button" onclick="brand()">브랜드소개</span>
             <span class="menu-button" onclick="product()">제품소개</span>
             <span class="menu-button" onclick="service()">서비스</span>
             <span class="menu-button" onclick="contact()" style="margin-right:3.5rem;">문의</span>
@@ -106,16 +106,19 @@
 
 <script type="text/javascript">
     function home() {
-        location.replace("http://alpox.kr/likelion/strawberry/index.html");
+        location.replace("index.html");
+    }
+    function brand() {
+        location.replace("brand.html");
     }
     function product() {
-        location.replace("http://alpox.kr/likelion/strawberry/product.html");
+        location.replace("product.html");
     }
     function service() {
-        location.replace("http://alpox.kr/likelion/strawberry/service.html");
+        location.replace("service.html");
     }
     function contact() {
-        location.replace("http://alpox.kr/likelion/strawberry/contact.html");
+        location.replace("contact.html");
     }
 </script>
 
