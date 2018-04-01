@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>LIKE STRAWBERRY</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Gothic+Coding');
+
+        /*
+        font-family: 'Nanum Gothic', sans-serif;
+        font-family: 'Nanum Gothic Coding', monospace;
+        */
+
+        body {
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+        #top-bar {
+            position: fixed;
+            height: 90px;
+            width: 100%;
+            float: left;
+            background: red;
+        }
+
+        #logo {
+            width: 30%;
+            float: left;
+        }
+
+        #menu {
+            right: 0;
+            color: white;
+            margin-top: 27px;
+            font-weight: bold;
+            font-size: 1.3rem;
+            width: 70%;
+            float: left;
+        }
+
+        #top-title {
+            margin-left: 60px;
+            color: white;
+            font-size: 1.7rem;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            font-weight: bold;
+        }
+
+        #top-title2 {
+            margin-left: 60px;
+            color: white;
+            font-size: 1rem;
+            margin-top: 3px;
+            font-weight: bold;
+        }
+
+        #container-box {
+            float: left;
+            width: 100%;
+            margin-top: 100px;
+
+        }
+
+        .menu-button {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+<div id=top-bar>
+    <div id="logo">
+        <p id="top-title">
+            딸기가 좋아!
+        </p>
+        <p id="top-title2">
+            LIKE STRAWBERRY
+        </p>
+    </div>
+    <div id="menu">
+        <div style="float:right;">
+            <span class="menu-button" onclick="home()">홈</span>
+            <span class="menu-button" onclick="product()">제품소개</span>
+            <span class="menu-button" onclick="service()">서비스</span>
+            <span class="menu-button" onclick="contact()" style="margin-right:3.5rem;">문의</span>
+        </div>
+    </div>
+</div>
+
+<div id="container-box">
+    <p style="text-align: center; margin-top: 50px;">
+        contact
+    </p>
+</div>
+
+<script type="text/javascript">
+    function home() {
+        location.replace("http://alpox.kr/likelion/strawberry/index.html");
+    }
+    function product() {
+        location.replace("http://alpox.kr/likelion/strawberry/product.html");
+    }
+    function service() {
+        location.replace("http://alpox.kr/likelion/strawberry/service.html");
+    }
+    function contact() {
+        location.replace("http://alpox.kr/likelion/strawberry/contact.html");
+    }
+</script>
+
+</body>
+</html>
