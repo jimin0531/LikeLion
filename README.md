@@ -10,7 +10,10 @@
 javascript onClick -> window.location.replace 를 통해 `<a>` 태그의 href 기능 대체
 
 - 지민
-홈화면 사진의(index.html) 브랜드 소개 글 적기 완성
+홈화면(index.html) 브랜드 소개 완성
+농장체험(service.html) 사진+글파트 까지 완성(반)
+
+
 
 
 

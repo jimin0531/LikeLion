@@ -72,8 +72,47 @@
 
         .menu-button {
             margin-left: 30px;
-            margin-right: 30px;
+            margin-right: 30px;    
         }
+
+        /*지민추가*/
+
+        #container-box{
+          
+        }
+
+        #pyo{
+            font-weight: bold;
+            font-style: italic;
+        }
+        aa{
+           font-weight: bold;
+            font-style: italic;
+            color : red;
+        }
+        .farmimg{
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .farm-img{
+            height: 290px;
+        }
+        #farmtxt{
+            margin: 0 auto;
+            width: 800px;
+        }
+        .left-side{
+          margin-top: 50px; 
+
+        }
+        .right-side{
+
+
+        }
+
+
+
 
     </style>
 </head>
@@ -81,16 +120,16 @@
 <body>
 <div id=top-bar>
     <div id="logo">
-        <p id="top-title" onclick="home()">
+        <p id="top-title">
             딸기가 좋아!
         </p>
-        <p id="top-title2" onclick="home()">
+        <p id="top-title2">
             LIKE STRAWBERRY
         </p>
     </div>
     <div id="menu">
         <div style="float:right;">
-            <span class="menu-button" onclick="brand()">브랜드소개</span>
+            <span class="menu-button" onclick="home()">홈</span>
             <span class="menu-button" onclick="product()">제품소개</span>
             <span class="menu-button" onclick="service()">서비스</span>
             <span class="menu-button" onclick="contact()" style="margin-right:3.5rem;">문의</span>
@@ -100,25 +139,45 @@
 
 <div id="container-box">
     <p style="text-align: center; margin-top: 50px;">
-        service
+        <img src="images/brandintro.PNG">
+    </p > 
+    <br>
+    <h2 style="text-align: center" id="pyo">
+    <aa>P</aa>uts <aa>Y</aa>our <aa>O</aa>wn!</h2>
+    <h5 style="text-align: center">
+    내 딸기는 내가 수확한다!</h5>  
+    <div class="farmimg">
+            <img class="farm-img" src="images/farm1.jpg">
+            <img class="farm-img" src="images/farm2.jpg">
+            <img class="farm-img" src="images/farm3.jpg">
+    </div>
+    <p style="text-align: center" id="farmtxt">고객이 <aa>직접</aa> 밭을 둘러보고, 수확한 딸기를 <aa>그 자리에서<aa> 구매할 수 있습니다.
     </p>
-</div>
+    <p style="text-align: center" id="farmtxt">
+    내가 직접 따와 믿을 수 있고, 유통료를 쏙 뺀 저렴한 가격에, 원하는 만큼 사고!
+    </p>
+    <p style="text-align: center" id="farmtxt">
+    아이들과 혹은 연인과 도심에서 경험하기 드문 흙냄새를 실컷 맡을수 있는 기회!
+    </p>
+    <div class="left-side">   
+    <img class="cal-img" src="images/april.jpg" width="400"> 
+    </div>
+    <div class="right-side">
+    </div>
+    </div>
 
 <script type="text/javascript">
     function home() {
-        location.replace("index.html");
-    }
-    function brand() {
-        location.replace("brand.html");
+        location.replace("http://alpox.kr/likelion/strawberry/index.html");
     }
     function product() {
-        location.replace("product.html");
+        location.replace("http://alpox.kr/likelion/strawberry/product.html");
     }
     function service() {
-        location.replace("service.html");
+        location.replace("http://alpox.kr/likelion/strawberry/service.html");
     }
     function contact() {
-        location.replace("contact.html");
+        location.replace("http://alpox.kr/likelion/strawberry/contact.html");
     }
 </script>
 
